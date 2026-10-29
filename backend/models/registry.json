@@ -1,0 +1,79 @@
+{
+  "naive_bayes": {
+    "name": "Gaussian Naive Bayes",
+    "task": "classification",
+    "accuracy": 53.53,
+    "macro_f1": 0.5008,
+    "file": "naive_bayes.joblib"
+  },
+  "linear_svm": {
+    "name": "Linear SVM",
+    "task": "classification",
+    "accuracy": 57.17,
+    "macro_f1": 0.5195,
+    "file": "linear_svm.joblib"
+  },
+  "rbf_svm": {
+    "name": "RBF SVM",
+    "task": "classification",
+    "accuracy": 89.02,
+    "macro_f1": 0.8904,
+    "file": "rbf_svm.joblib"
+  },
+  "knn_31": {
+    "name": "KNN (K=31)",
+    "task": "classification",
+    "accuracy": 70.54,
+    "macro_f1": 0.7008,
+    "file": "knn_31.joblib"
+  },
+  "logistic_regression": {
+    "name": "Logistic Regression",
+    "task": "classification",
+    "accuracy": 60.54,
+    "macro_f1": 0.6009,
+    "file": "logistic_regression.joblib"
+  },
+  "decision_tree": {
+    "name": "Decision Tree (Tuned)",
+    "task": "classification",
+    "accuracy": 77.77,
+    "macro_f1": 0.7798,
+    "file": "decision_tree.joblib"
+  },
+  "random_forest_classifier": {
+    "name": "Random Forest Classifier",
+    "task": "classification",
+    "accuracy": 78.15,
+    "macro_f1": 0.7794,
+    "file": "random_forest_classifier.joblib"
+  },
+  "random_forest_regressor": {
+    "name": "Random Forest Regression",
+    "task": "regression",
+    "mae": 0.5277,
+    "r2": 0.9905,
+    "file": "random_forest_regressor.joblib"
+  },
+  "linear_regression": {
+    "name": "Linear Regression",
+    "task": "regression",
+    "mae": 1.4332,
+    "r2": 0.9447,
+    "file": "linear_regression.joblib"
+  },
+  "polynomial_regression": {
+    "name": "Polynomial Regression",
+    "task": "regression",
+    "mae": 1.023,
+    "r2": 0.9736,
+    "file": "polynomial_regression.joblib"
+  },
+  "rf_regression_category": {
+    "name": "RF Regression \u2192 Category",
+    "task": "hybrid",
+    "accuracy": 83.04,
+    "macro_f1": 0.8321,
+    "regressor_key": "random_forest_regressor"
+  }
+}

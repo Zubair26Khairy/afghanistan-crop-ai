@@ -1,0 +1,74 @@
+{
+  "provinces": [
+    "Balkh",
+    "Farah",
+    "Ghazni",
+    "Herat",
+    "Kabul",
+    "Kandahar",
+    "Kapisa",
+    "Khost",
+    "Kunduz",
+    "Logar",
+    "Nangarhar",
+    "Paktia",
+    "Paktika",
+    "Parwan",
+    "Samangan",
+    "Uruzgan",
+    "Wardak",
+    "Zabul"
+  ],
+  "crops": [
+    "Almonds",
+    "Apples",
+    "Apricots",
+    "Citrus Fruits",
+    "Figs",
+    "Grapes & Raisins",
+    "Melons & Watermelons",
+    "Pine Nuts",
+    "Pomegranates",
+    "Saffron"
+  ],
+  "irrigation_types": [
+    "Canal",
+    "Drip",
+    "Rainfed"
+  ],
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "defaults": {
+    "Year": 2024,
+    "Month": 6,
+    "Province": "Kandahar",
+    "Crop": "Pomegranates",
+    "Temp_C": 26,
+    "Rain_mm": 250,
+    "Fertilizer_kg_ha": 100,
+    "Irrigation_Type": "Drip",
+    "Land_Hectares": 5
+  },
+  "model_metrics": {
+    "RBF SVM": {
+      "accuracy": 89.02,
+      "macro_f1": 0.8904
+    },
+    "RF Regression": {
+      "mae": 0.5277,
+      "r2": 0.9905
+    }
+  }
+}
